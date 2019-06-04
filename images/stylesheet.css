@@ -1,0 +1,18 @@
+body {
+  height: 100%vh;
+  width: 100%;
+}
+
+/******************* Navbar Menu***************************************
+****************************************************************/
+.navbar-menu li {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: black;
+  list-style-type: none;
+}
+
+.navbar-menu:first-child {
+  color: pink;
+}
+/*# sourceMappingURL=stylesheet.css.map */
