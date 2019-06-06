@@ -4,6 +4,7 @@ const shoppingCart = document.querySelector("#shopping-cart");
 const newsletterConfirmationModal= document.querySelector("#newsletter-confirmation");
 const confirmBtn= document.querySelector(".btn-primary");
 const newsletterClose = document.querySelector(".newsletter-close");
+
 for(let b of shopNowBtn){
    b.addEventListener('click', () => {
         shoppingCart.classList.toggle("active");
